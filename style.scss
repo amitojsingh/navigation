@@ -1,0 +1,27 @@
+body{background-color:#ffffff;}
+nav{
+	text-align:center;
+ul
+{
+	list-style-type:none;
+}
+  li
+  {
+	display:inline-block;
+  }
+  a
+   {	
+	text-decoration:none;
+	border-radius:1em;
+	padding:10px;
+	border:medium solid #1abc9c;
+	background:#ecf0f1;
+	color:#000;
+	&:hover
+{
+background:#2ecc71;
+color:#ecf0f1;
+border:solid #fff;
+}
+  }
+}
