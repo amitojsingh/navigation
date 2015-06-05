@@ -1,3 +1,4 @@
+$green:#ecf0f1;
 body{background-color:#ffffff;}
 nav{
 	text-align:center;
@@ -15,12 +16,12 @@ ul
 	border-radius:1em;
 	padding:10px;
 	border:medium solid #1abc9c;
-	background:#ecf0f1;
+	background:$green:
 	color:#000;
 	&:hover
 {
 background:#2ecc71;
-color:#ecf0f1;
+color:$green;
 border:solid #fff;
 }
   }
